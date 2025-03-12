@@ -1,5 +1,5 @@
 name: Hello World Docker Action
-description: A Container Action for saying Hello World!"
+description: "A Container Action for saying Hello World!"
 
 inputs:
   who-to-greet:
