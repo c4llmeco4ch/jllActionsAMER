@@ -5,7 +5,9 @@ inputs:
   who-to-greet:
     default: "world"
     description: "Who to greet"
-outputs: [ time ]
+outputs:
+  time:
+    description: "The time this was run"
 runs:
   using: "docker"
   image: "Dockerfile"
